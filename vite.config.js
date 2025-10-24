@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/FIT5032-week12/',
   plugins: [
     vue(),
     vueDevTools(),
